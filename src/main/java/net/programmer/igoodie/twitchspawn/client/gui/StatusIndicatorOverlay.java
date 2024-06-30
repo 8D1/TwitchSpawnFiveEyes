@@ -76,7 +76,7 @@ public class StatusIndicatorOverlay {
         if (ConfigManager.PREFERENCES.indicatorDisplay == PreferencesConfig.IndicatorDisplay.ENABLED) {
             ux = 0;
             uy = running ? 22 : 0;
-            w = 65;
+            w = 128;
             h = 22;
         } else if (ConfigManager.PREFERENCES.indicatorDisplay == PreferencesConfig.IndicatorDisplay.CIRCLE_ONLY) {
             ux = 0;
